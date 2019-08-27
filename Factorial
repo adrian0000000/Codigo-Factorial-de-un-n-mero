@@ -1,0 +1,17 @@
+Proceso NumeroFactorial
+	fac<-1;
+	mult<-0;
+	Escribir "Escriba un numero y te dire su factorial";
+Leer n;
+Si n<-0 Entonces
+	Escribir "El factorial de 0 es 1";
+Sino
+ para mult<-1 Hasta n hacer 
+		fac<-fac*mult;
+		
+	FinPara
+	
+FinSi
+Escribir "El factorial de ",n, "! es: ",fac;
+
+FinProceso
